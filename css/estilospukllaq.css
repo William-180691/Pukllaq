@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body::-webkit-scrollbar{
+    width: 13px;
+    background: rgba(0, 0, 0, 0.808);
+}
+
+body::-webkit-scrollbar-thumb{
+    background: rgb(40, 63, 90);
+    border-radius: 10px;
+    border-right-color: 2px solid #000;
+}
+.img-fluid{
+    float: left;
+    width: 110px;
+}
+header{
+    width: 100%;
+    background: #000;
+}
+header nav{
+    overflow: hidden;
+}
+h2{
+    text-align: center;
+}
+.main-nov{
+    padding: 20px;
+}
+.main-nov .articles-nov {
+        width:58.5%;
+        float:left;
+}
+.main-nov .articles-nov article{
+    padding:20px;
+    margin-bottom:20px;
+}
+.article-right{
+        width:40%;
+        float:left;
+        box-sizing:border-box;
+}
+.articles-2,.articles-4,.articles-6,.articles-8,.articles-10 {
+    width:58.5%;
+    float:right;
+    margin-top: 20px;
+    padding: 20px;
+}
+.article-2r,.article-4r,.article-6r,.article-8r,.article-10r{
+    width:40%;
+    float:right;
+    box-sizing:border-box;
+    margin-top: 20px;
+}
+.articles-3,.articles-5,.articles-7,.articles-9,.articles-11{
+    width:58.5%;
+    float:left;
+    margin-top: 20px;
+    padding: 20px;
+}
+.article-3r,.article-5r,.article-7r,.article-9r,.article-11r{
+    width:40%;
+    float:left;
+    box-sizing:border-box;
+    margin-top: 20px;
+}
+footer{
+            background-color:#000000;
+            color:#fff;
+            clear:both;
+            padding:10px;
+            text-align:center;
+}
+.img-nov{
+    width:100%;
+}
+iframe{
+    width:100%;
+}
+form {
+    width: 800px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+.formularioindex {
+    border-radius: 4px;
+    color: white;
+    padding: 10px;
+    margin-bottom: 16px;
+}
+
+.formularioindex, .escribir {
+    width: 100%;
+    background: #24303c;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    color: white;
+}
+
+.escribir {
+    min-height: 150px;
+    max-height: 200px;
+    max-width: 100%;
+    margin-bottom: 16px;
+}
+
+#boton{
+    background: #31384A;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width:1200px) {
+    .vids-nov{
+        height: 310px;
+    }
+    
+}
+@media (max-width: 800px) {
+    form{
+        width: 100%;
+    }
+}
+@media screen and (max-width:800px) {
+    .main-nov .articles-nov,.articles-nov,.article-right,.articles-2,.article-2r,.articles-3,.article-3r,.articles-4,.article-4r,.articles-5,.article-5r,.articles-6,.article-6r,.articles-7,.article-7r,.articles-8,.article-8r,.articles-9,.article-9r,.articles-10,.article-10r,.articles-11,.article-11r{
+        float:none;
+        width: 100%;
+    }
+    form{
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    form{
+        width: 100%;
+    }
+}
