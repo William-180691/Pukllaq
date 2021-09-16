@@ -73,6 +73,13 @@ h2{
     box-sizing:border-box;
     margin-top: 20px;
 }
+.pop{
+    text-align: justify;
+}
+.news{
+    text-align: center;
+
+}
 footer{
             background-color:#000000;
             color:#fff;
@@ -85,6 +92,9 @@ footer{
 }
 iframe{
     width:100%;
+}
+.not-tit{
+    text-align: center;
 }
 form {
     width: 800px;
@@ -126,21 +136,21 @@ form {
     padding: 20px;
     width: 100%;
 }
-
+img{
+    width: 100%;
+}
 #boton:hover {
     cursor: pointer;
 }
-
+.parrafo-nov{
+    text-align: justify;
+    font-size: 1.5em;
+}
 @media screen and (max-width:1200px) {
     .vids-nov{
         height: 310px;
     }
     
-}
-@media (max-width: 800px) {
-    form{
-        width: 100%;
-    }
 }
 @media screen and (max-width:800px) {
     .main-nov .articles-nov,.articles-nov,.article-right,.articles-2,.article-2r,.articles-3,.article-3r,.articles-4,.article-4r,.articles-5,.article-5r,.articles-6,.article-6r,.articles-7,.article-7r,.articles-8,.article-8r,.articles-9,.article-9r,.articles-10,.article-10r,.articles-11,.article-11r{
